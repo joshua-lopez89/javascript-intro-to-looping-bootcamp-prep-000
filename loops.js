@@ -17,24 +17,9 @@ function whileLoop(number){
 }
 
 function doWhileLoop(array){
-  
-function incrementVariable() {
-  i = i + 1;
-}
- 
-do {
-  console.log("doo-bee-doo-bee-doo");
-  incrementVariable();
-} while (i < 5);
+ do {
+   array.pop()
+ }
+ while (array.length > 0);
 return array
-}
-
-
-
-function doWhileLoop(array) {
-  do{
-    array.pop()
-  }
-    while (array.length > 0);
-  return array
 }
