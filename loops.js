@@ -28,3 +28,13 @@ do {
 } while (i < 5);
 return array
 }
+
+
+
+function doWhileLoop(array) {
+  do{
+    array.pop()
+  }
+    while (array.length > 0);
+  return array
+}
